@@ -4,7 +4,7 @@ server:
 
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://${registry.host}:${registry.port}/eureka/ # 指定服务注册中心地址
   instance:
     prefer-ip-address: true # 以IP地址注册到服务中心
