@@ -1,5 +1,6 @@
-package com.amy.cloud.amycloudapp.controller;
+package com.amy.cloud.amycloudapp.remote;
 
+import com.amy.cloud.amycloudapp.remote.HelloRemote;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestParam;
 

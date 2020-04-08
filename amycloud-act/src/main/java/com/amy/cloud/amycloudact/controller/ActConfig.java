@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 @Component
 @Configuration
 public class ActConfig {
-    @Value("${springFestival.startTime}")
-    public String startTime;
-    @Value("${springFestival.endTime}")
-    public String endTime;
+//    @Value("${springFestival.startTime}")
+//    public String startTime;
+//    @Value("${springFestival.endTime}")
+//    public String endTime;
 }
