@@ -1,17 +1,17 @@
-package com.amy.cloud.amycloudconfig;
+package com.amy.cloud.amycloudapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@EnableDiscoveryClient
-@EnableConfigServer
 @SpringBootApplication
-public class AmycloudConfigApplication {
+@EnableDiscoveryClient
+@EnableFeignClients
+public class AmycloudAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AmycloudConfigApplication.class, args);
+		SpringApplication.run(AmycloudAppApplication.class, args);
 	}
 
 }

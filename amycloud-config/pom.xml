@@ -20,7 +20,7 @@
 	</properties>
 
 	<dependencies>
-		<!--config-->
+		<!--config server-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>

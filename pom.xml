@@ -12,6 +12,8 @@
         <module>amycloud-eureka</module>
         <module>amycloud-act</module>
         <module>amycloud-config</module>
+        <module>amycloud-core</module>
+        <module>amycloud-app</module>
     </modules>
 
 </project>
